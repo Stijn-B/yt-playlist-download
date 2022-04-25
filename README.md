@@ -13,4 +13,12 @@ Videos no longer present in the playlist are *not* deleted locally
 The playlists should be public or unlisted (not private) because this script doesn't use account credentials
 
 ## Requirements
-[youtube-dl](https://youtube-dl.org) & [jq](https://stedolan.github.io/jq)
+- [youtube-dl](https://youtube-dl.org)
+- [jq](https://stedolan.github.io/jq)
+
+### Installing requirements on Ubuntu
+
+```
+sudo pip install --upgrade youtube_dl
+sudo apt-get install jq
+```
